@@ -1,5 +1,11 @@
 # HUFS Bachelor's Announcement Crawling
 
+**Run**
+
+- /backend> python manage.py runserver
+
+- /frontend> yarn start
+
 
 
 **Referenc URL**
