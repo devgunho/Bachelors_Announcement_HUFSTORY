@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import TableRow from '@material-ui/core/TableRow'
 import TableCell from '@material-ui/core/TableCell'
@@ -8,17 +7,6 @@ import TableHead from '@material-ui/core/TableHead';
 import TableBody from '@material-ui/core/TableBody';
 
 import Customer from './Customer'
-
-const styles = theme => ({
-    root: {
-    width: "100%",
-    marginTop: theme.spacing.unit * 3,
-    overflowX: "auto"
-    },
-    table: {
-    minWidth: 1080
-    }
-});
 
 class App extends Component {
     state = {
@@ -44,8 +32,8 @@ class App extends Component {
                     <Table>
                         <TableHead>
                             <TableRow>
-                                <TableCell>번호</TableCell>
-                                <TableCell>데이터</TableCell>
+                                <TableCell>Num</TableCell>
+                                <TableCell>Data</TableCell>
                             </TableRow>
                         </TableHead>
                         <TableBody>
